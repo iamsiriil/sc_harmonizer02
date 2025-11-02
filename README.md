@@ -15,7 +15,7 @@ Harmonizer 02 is the second iteration in a series of harmonizer projects, aimed 
 
 ## Extended Syntax
 
-To the current verbose notation being implemented in MusicEngine:
+To the current verbose notation, being implemented in MusicEngine:
 
 ```supercollider
 "DbM3P5m7" // Dominant seventh chord, over Db
@@ -29,5 +29,5 @@ Will be added:
 
 Where:
 * ***m7-*** means the minor seventh will be retarded onto the next chord
-* ***M3*** means the major third will be the bass note
-* ***Rt*** means the root will be played by the top voice
+* ***_M3*** means the major third will be the bass note (first inversion)
+* ***^Rt*** means the root will be played by the top voice
