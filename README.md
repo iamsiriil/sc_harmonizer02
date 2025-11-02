@@ -3,7 +3,7 @@
 
 # Harmonizer 02
 
-Harmonizer 02 is the second iteration in a series of harmonizer projects, aimed at developing a harmonizer for supercollider.
+Harmonizer 02 is the second iteration in a series of harmonizer projects, aimed at developing a harmonizer class for supercollider. Whether this project will be implemented directly as a collection of SuperCollider classes, or resorting to regular functions, as was Harmonizer 01, was not yet decided.
 
 ## Goals
 
@@ -28,6 +28,9 @@ Will be added:
 ```
 
 Where:
-* ***m7-*** means the minor seventh will be retarded onto the next chord
-* ***_M3*** means the major third will be the bass note (first inversion)
-* ***^Rt*** means the root will be played by the top voice
+* ***m7-*** means the minor seventh will be retarded onto the next chord.
+* ***_M3*** means the major third will be the bass note (first inversion).
+* ***^Rt*** means the root will be played by the top voice.
+
+Additionally:
+* ***-m7*** will indicate an anticipation.
