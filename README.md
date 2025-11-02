@@ -12,3 +12,22 @@ Harmonizer 02 is the second iteration in a series of harmonizer projects, aimed 
 * Backtracking funcions will be improved for efficiency.
 * Valid Note ranges, for each of the voices, will be sorted by proximity to previous chord notes. The idea is to make the system biased towards preserving common tones and towards privileging smaller melodic intervals within each voice.
 * Will be able to handle 4 to 7 voices.
+
+## Extended Syntax
+
+To the current verbose notation being implemented in MusicEngine:
+
+```supercollider
+"DbM3P5m7" // Dominant seventh chord, over Db
+```
+
+Will be added:
+
+```supercollider
+"DbM3P5m7(m7-;_M3;^Rt)"
+```
+
+Where:
+* **m7-** minor seventh will be retarded onto the next chord
+* **M3** Major third will be the bass note
+* **Rt** The root will be played by the top note
